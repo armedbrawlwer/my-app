@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Landing />} />
-        <Route path="/editor/:roomId" element={<Editor />} />
+        <Route path="/editor" element={<Editor />} />
       </Routes>
     </Router>
   );
